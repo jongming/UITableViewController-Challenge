@@ -1,5 +1,5 @@
 //
-//  UTCViewController.h
+//  UTCTableViewController.h
 //  UITableViewController Challenge
 //
 //  Created by Benjamin Tai on 5/15/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UTCViewController : UIViewController
+@interface UTCTableViewController : UITableViewController
 
 @end
