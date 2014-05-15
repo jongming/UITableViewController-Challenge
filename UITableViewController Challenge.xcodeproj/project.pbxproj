@@ -20,7 +20,7 @@
 		702CFEA91923BCB600DD6609 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 702CFE8B1923BCB600DD6609 /* UIKit.framework */; };
 		702CFEB11923BCB600DD6609 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 702CFEAF1923BCB600DD6609 /* InfoPlist.strings */; };
 		702CFEB31923BCB600DD6609 /* UITableViewController_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 702CFEB21923BCB600DD6609 /* UITableViewController_ChallengeTests.m */; };
-		702CFEBE1923BE4600DD6609 /* UTCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702CFEBD1923BE4600DD6609 /* UTCTableViewController.m */; };
+		702CFEC11924472F00DD6609 /* UTCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702CFEC01924472F00DD6609 /* UTCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,8 @@
 		702CFEAE1923BCB600DD6609 /* UITableViewController ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		702CFEB01923BCB600DD6609 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		702CFEB21923BCB600DD6609 /* UITableViewController_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_ChallengeTests.m; sourceTree = "<group>"; };
-		702CFEBC1923BE4600DD6609 /* UTCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UTCTableViewController.h; path = ../UTCTableViewController.h; sourceTree = "<group>"; };
-		702CFEBD1923BE4600DD6609 /* UTCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UTCTableViewController.m; path = ../UTCTableViewController.m; sourceTree = "<group>"; };
+		702CFEBF1924472F00DD6609 /* UTCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTCTableViewController.h; sourceTree = "<group>"; };
+		702CFEC01924472F00DD6609 /* UTCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				702CFE991923BCB600DD6609 /* Main.storyboard */,
-				702CFEBC1923BE4600DD6609 /* UTCTableViewController.h */,
-				702CFEBD1923BE4600DD6609 /* UTCTableViewController.m */,
+				702CFEBF1924472F00DD6609 /* UTCTableViewController.h */,
+				702CFEC01924472F00DD6609 /* UTCTableViewController.m */,
 				702CFE9F1923BCB600DD6609 /* Images.xcassets */,
 				702CFE8E1923BCB600DD6609 /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				702CFE941923BCB600DD6609 /* main.m in Sources */,
-				702CFEBE1923BE4600DD6609 /* UTCTableViewController.m in Sources */,
+				702CFEC11924472F00DD6609 /* UTCTableViewController.m in Sources */,
 				702CFE981923BCB600DD6609 /* UTCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
